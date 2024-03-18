@@ -1,0 +1,10 @@
+{
+    "CacheThumbnail": true,
+    "KPlugin": {
+        "MimeTypes": [
+            "image/x-aseprite"
+        ],
+        "Name": "Aseprite Pixel Art"
+    },
+    "MimeType": "image/x-aseprite;"
+}
