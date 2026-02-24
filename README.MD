@@ -12,7 +12,9 @@ Build dependencies:
 - qt6-base
 - kio
 
-1. First need to install [Aseprite](https://aseprite.org/)
+1. A global [Aseprite](https://aseprite.org/) installation
+   - aseprite binary available in PATH
+   - .ase and .aseprite files registered as `image/x-aseprite` MIME type
 2. Build the plugin
    ```sh
    mkdir build
