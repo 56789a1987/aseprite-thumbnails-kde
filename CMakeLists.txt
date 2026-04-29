@@ -51,8 +51,6 @@ endif()
 
 find_package(KF${KF_MAJOR} ${KF_DEP_VERSION} REQUIRED COMPONENTS KIO)
 
-set(KDE_INSTALL_USE_QT_SYS_PATHS)
-
 kcoreaddons_add_plugin(aseprite_thumbnails INSTALL_NAMESPACE "kf${QT_MAJOR_VERSION}/thumbcreator")
 
 target_sources(aseprite_thumbnails PRIVATE aseprite_thumbnails.cpp)
